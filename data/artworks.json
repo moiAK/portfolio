@@ -38,5 +38,13 @@
     "image": "images/gallery/Unknown-1.jpeg",
     "available": false,
     "year": 2022
+  },
+  {
+    "id": 6,
+    "title": "Momo",
+    "description": "Ink Pen, 16x20 inches. 나의 사랑 모모와 세상의 모든 모모들",
+    "image": "images/gallery/dog.jpeg",
+    "available": false,
+    "year": 2025
   }
 ]
