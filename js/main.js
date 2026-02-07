@@ -23,6 +23,7 @@
     setupFilters();
     setupModal();
     setupNavigation();
+    setupAutoScroll();
   }
 
   async function fetchArtworks() {
@@ -161,6 +162,34 @@
         }
       });
     });
+  }
+
+  function setupAutoScroll() {
+    var scrollBox = document.querySelector('.about__statement-scroll');
+    if (!scrollBox) return;
+
+    var speed = 0.5; // pixels per frame
+    var paused = false;
+
+    scrollBox.addEventListener('mouseenter', function () { paused = true; });
+    scrollBox.addEventListener('mouseleave', function () { paused = false; });
+    scrollBox.addEventListener('touchstart', function () { paused = true; });
+    scrollBox.addEventListener('touchend', function () {
+      setTimeout(function () { paused = false; }, 2000);
+    });
+
+    function step() {
+      if (!paused) {
+        scrollBox.scrollTop += speed;
+        // Loop back to top when reaching the end
+        if (scrollBox.scrollTop >= scrollBox.scrollHeight - scrollBox.clientHeight) {
+          scrollBox.scrollTop = 0;
+        }
+      }
+      requestAnimationFrame(step);
+    }
+
+    requestAnimationFrame(step);
   }
 
   if (document.readyState === 'loading') {
