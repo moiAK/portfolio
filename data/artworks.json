@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "Bouquet and Sea",
-    "description": "Watercolor, 18x24 inches. A bouquet in a clear glass vase, painted before a sea-like background.\nThis work marks my return to oil painting more than three decades after art school.",
+    "description": "Oil on canvas, 18x24 inches. A bouquet in a clear glass vase, painted before a sea-like background.\nThis work marks my return to oil painting more than three decades after art school.",
     "image": "images/gallery/image003.jpg",
     "available": false,
     "year": 2023
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Not Cézanne",
-    "description": "Acrylic on canvas, 30x40 inches. An apple painting that accidentally echoes Cézanne.\nIt is not Cézanne.",
+    "description": "Oil on canvas, 30x40 inches. An apple painting that accidentally echoes Cézanne.\nIt is not Cézanne.",
     "image": "images/gallery/not_cezan.jpg",
     "available": false,
     "year": 2024
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "title": "Autumn Reverie",
-    "description": "Oil on Canvas, 16x20 inches. Capturing the vibrant transformation of fall foliage, this piece celebrates the rich oranges, reds, and yellows of the season against a cool blue sky.",
+    "description": "Oil on canvas, 16x20 inches. Capturing the vibrant transformation of fall foliage, this piece celebrates the rich oranges, reds, and yellows of the season against a cool blue sky.",
     "image": "images/gallery/Unknown-1.jpeg",
     "available": false,
     "year": 2022
